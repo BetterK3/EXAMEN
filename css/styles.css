@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: 'Georgia', serif; 
+    background-color: #bebebe;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Estilos para el recuadro de Nombre y Número de Control */
+.nombre-control .cuadro {
+    grid-column: span 2;
+    text-align: center;
+    color: #b6162b;
+}
+
+/* Estructura del contenido */
+section.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.cuadro {
+    background-color: #bebebe;
+    border: 2px solid #8e3838;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cuadro h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #8e383f;
+    font-family: 'Arial Black', sans-serif;
+}
+
+/* Estilo para las ecuaciones */
+.equation {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    background-color: #dbdbdb;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Botón de resultado */
+button#calcular-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #8e3838;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button#calcular-btn:hover {
+    background-color: #7d2e2e;
+}
